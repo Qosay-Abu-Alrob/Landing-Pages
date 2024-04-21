@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.content h1{
+    
+    color: #252525;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.content p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color:rgba(37, 37, 37, 0.8);
+}
+.content button{
+    padding: 18px 48px 18px 48px;
+    border: none;
+    border-radius: 16px;
+    background:#252525;
+    color: #FFFFFF;
+    margin: 0% 0% 4% 0%;
+}
+.catagory img{
+    margin: 0.5%;
+}
+@media screen and (min-width: 1000px){
+    h1{
+        width: 50%;
+        margin: 3% 25% 0 25%;
+    }
+    .content p{
+        width: 40%;
+        margin: 1% 30% 2% 30%;
+    }
+}
